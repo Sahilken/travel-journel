@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+
+body {
+    background-color: #e8d3d3;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 853px;
+    margin: 20px auto;
+    /* position: ; */
+    background-color: #ffffff;
+}
+
+.Header {
+    background-color: rgb(229, 61, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.Header--img {
+    margin-right: 5px;
+}
+
+.Header--p {
+    color: white;
+}
+
+.Card {
+    width: 471px;
+    height: 168px;
+    display: flex;
+    margin: 20px 30px;
+    box-shadow: 0px 2.98px 7.46px rgba(0, 0, 0, 0.1);
+}
+
+.Card--img {
+    width: 125px;
+    border-radius: 9px;
+
+}
+
+.Card--data {
+    padding: 10px 20px;
+}
+
+.Card--data--nav {
+    display: flex;
+    flex-direction: column;
+    height: 11px;
+
+}
+
+.Card--Country {
+    font-size: 14px;
+    margin: 0 3px;
+}
+
+.Card--gmap {
+    font-size: 12px;
+    margin: 0 6px;
+    color: #918E9B;
+}
+
+.Card--title {
+    margin: 5px 0;
+    font-size: x-large;
+}
+
+.Card--date {
+    display: inline;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.Card--desc {
+    font-size: 12px;
+}
